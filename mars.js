@@ -58,8 +58,8 @@ function textNasaPhoto() {
 
     // sets our username and password to the correct things
     // we technically don't need these lines of code but they make the 'beforeSend' function clearer
-    let username = "TWILIO ACCOUNT SID";
-    let password = "TWILIO API KEY";
+    let username = twilio.accountSid;
+    let password = twilio.apiKey;
 
     
     $.ajax({
