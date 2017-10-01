@@ -37,11 +37,15 @@ function printSquareNumber(number){ // calls square number and prints the result
 // call printSquareNumber
 
 function cubeNumber(number){
+	return Math.pow(number, 3);
     //write this with a return statement (like squareNumber)
 }
 
 function printCubeNumber(number){
+	console.log(cubeNumber(number))
     // write this with a console.log() statement!
 }
+
+printCubeNumber(3);
 
 
