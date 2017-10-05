@@ -44,6 +44,8 @@ function textNasaPhoto() {
     // gets our information from the page
     let sendNumber = document.getElementById('phone').value;
     let message = document.getElementById('text-content').value;
+    document.getElementById('phone').value = "";
+    document.getElementById('text-content').value = "";
 
     // sets our Twilio URL (since it's different based on the account you're using)
     let twilioUrl = 'https://api.twilio.com/2010-04-01/Accounts/' + twilio.accountSid + '/Messages.json';
