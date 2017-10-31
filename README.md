@@ -1,3 +1,2 @@
-# Mars Rover Photo Database
-Utilizes the Mars Rover API and Twilio API to access photos taken by the Mars Curiosity Rover, and 
-send those images to any given phone number. 
+# Mikey's Magnificant Website
+Here you will find an introduction to the most important aspects about me. 
