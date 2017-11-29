@@ -1,0 +1,17 @@
+
+body {
+	font-family: "verdana";
+	background: url("background.png"); 
+	color: black;
+
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: darkblue;
+}
